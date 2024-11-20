@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto web - productos</title>
+    <link rel="stylesheet" href="css/index01.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        @font-face {
+            font-family: 'LEMON MILK';
+            src: url('fonts/LEMONMILK-Regular.otf') format('opentype');
+        }
+
+        body {
+            font-family: 'LEMON MILK', sans-serif;
+        }
+    </style>
+
+
+</head>
+<body>
+        <header>
+            <div class="logo">
+                <img src="image/logo.webp" alt="logotipo">
+            </div>
+
+            <nav class="menubotones">
+                <ul>   
+
+                    <nav>
+                        <ul>
+                            <li><a href="#inicio"><i class="fas fa-home"></i> Inicio</a></li>
+                            <li><a href="#nosotros"><i class="fas fa-info-circle"></i> Datos</a></li>
+                            <li><a href="#servicios"><i class="fas fa-cogs"></i> Mapas</a></li>
+                            <li><a href="#galeria"><i class="fas fa-images"></i> Galería</a></li>
+                            <li><a href="#contacto"><i class="fas fa-envelope"></i> Contacto</a></li>
+                        </ul>
+                    </nav>
+        </header>
+
+
+        <Main>
+            <section class="video-section">
+        
+                <video autoplay muted loop class="bg-video">
+                    <source src="image/video01.mp4" type="video/mp4">
+        
+                </video>
+            
+                <div class="video-overlay">
+                    <h1>POSTRES SALUDABLES</h1>
+                    <a href="#inicio" class="btn-ingresar">Ingresar a mi Página</a>
+                </div>
+            </section>
+        
+            <section class="section-01">
+                <div class="content">
+                    <h2>Nuestros Servicios</h2>
+                    <p>Envía tus datos para poder conocerte mejor.</p>
+                </div>
+            </section>
+        
+        
+            <section class="grid-section">
+            
+                <div class="grid-item image-container">
+                    <img src="image/imagen02.jpg" alt="Descripción de la imagen" class="responsive-img">
+                </div>
+            
+                
+                <div class="grid-item form-container">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                </div>
+            </section>
+        
+        
+            <section class="section-02">
+                <div class="section-header">
+                    <h2>Nuestra ubicación</h2>
+                    <p>Conoce el lugar dónde podrás disfrutar de deliciosos manjares.</p>
+                </div>
+            </section>
+        
+        
+            <section class="map-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15603.64731428781!2d-77.04454885709755!3d-12.11818513031021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81d64ebef2f%3A0x538baadf63cca807!2sPasteler%C3%ADa%20San%20Antonio%20-%20Miraflores!5e0!3m2!1ses!2spe!4v1731985608238!5m2!1ses!2spe" 
+        
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            
+            <section class="section-03">
+                <div class="section-header">
+                    <h2>Nuestra galería de imágenes</h2>
+                    <p>Conoce el lugar dónde podrás disfrutar de deliciosos manjares.</p>
+                </div>
+            </section>
+        
+        
+            <section class="image-grid">
+        
+                <div class="image-box">
+                
+                    <img src="image/postre01.jpg" alt="Imagen 1">
+                    
+                </div>
+                <div class="image-box">
+                    <img src="image/postre02.jpg" alt="Imagen 2">
+                </div>
+                <div class="image-box">
+                    <img src="image/postres03.jpg" alt="Imagen 3">
+                </div>
+
+                <div class="image-box">
+                    <img src="image/postres04.jpg" alt="Imagen 4">
+                </div>
+            </section>
+
+                <!-- Segunda fila -->
+                <section class="image-grid2">
+                <div class="image-box2">
+                    <img src="image/postre05.jpg" alt="Imagen 5">
+                </div>
+                <div class="image-box2">
+                    <img src="image/postre06.jpg" alt="Imagen 6">
+
+                </div>
+                </section>
+
+        </Main>
+    
+        <footer class="footer">
+            <div class="footer-item">
+                <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <div class="footer-item">
+                <p>Carmela Camila Reyes Chavez</p>
+            </div>
+            <div class="footer-item">
+                <p>Tel. Fijo: 123-456789</p>
+                <p>Tel. Móvil: 987-654321</p>
+            </div>
+            <div class="footer-item">
+                <p>Instituto ISIL</p>
+                <p>Distrito Lima, Ciudad Lima</p>
+            </div>
+            <div class="footer-item">
+                <p>Carrera: Desarrollo de software</p>
+                <p>Año: 2024</p>
+            </div>
+            <div class="footer-item">
+                <p>Docente: Roberto Inga Alvarado</p>
+            </div>
+        </footer>
+
+</body>
+</html>
